@@ -1,0 +1,102 @@
+body {
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.contato .mensagem {
+    max-width: 300px;
+    color: #ffffff;
+    margin: 30px;
+}
+
+.contato .mensagem h2 {
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+.contato .mensagem p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.contato .formulario {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 378px;
+    margin: 30px;
+}
+
+.contato .formulario input {
+    width: 300px;
+    margin-left: 22px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px;
+    margin-top: 15px;
+}
+
+.contato .formulario #nome {
+    margin-top: 20px;
+}
+
+.contato .formulario #mensagem {
+    height: 100px;
+}
+
+.contato .formulario h3 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.contato .formulario .enviar {
+    margin-top: 20px;
+    background-color: #3CCC87;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder {
+    color: #A8A8A8;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.contato .formulario .texto-erro {
+    font-weight: 400;
+    font-size: 8px;
+    margin-left: 22px;
+    color: #F52E2E;
+    display: none;
+}
+
+.contato .formulario .texto-erro.vazio{
+    display: block;
+}
+
+.contato .formulario .input-text.preenchido {
+    border-color: #00C22B;
+}
+
+.contato .formulario .input-text.vazio {
+    border-color: #F52E2E;
+}

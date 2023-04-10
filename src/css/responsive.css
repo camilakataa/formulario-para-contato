@@ -1,0 +1,11 @@
+@media (max-width: 768px){
+    .contato {
+        flex-direction: column;
+    }
+    .contato .formulario {
+        width: 300px;
+    }
+    .contato .formulario input {
+        width: 250px;
+    }
+}
