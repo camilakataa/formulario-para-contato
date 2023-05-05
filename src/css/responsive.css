@@ -5,7 +5,11 @@
     .contato .formulario {
         width: 300px;
     }
-    .contato .formulario input {
+    .contato .formulario .input-text {
+        width: 250px;
+    }
+
+    .contato .formulario .enviar {
         width: 250px;
     }
 }
