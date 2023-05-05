@@ -11,7 +11,10 @@ botaoEnviar.addEventListener('click', function(event){
         if (campos[index].value === "") {
             campos[index].classList.add("vazio")
             textoErro[index].classList.add("vazio")
+            campos[index].classList.remove("preenchido")
         } else {
+            campos[index].classList.remove("vazio")
+            textoErro[index].classList.remove("vazio")
             campos[index].classList.add("preenchido")
         }
 
